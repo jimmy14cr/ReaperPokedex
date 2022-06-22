@@ -1,4 +1,3 @@
-import CardComponent from './CardComponent';
 import {Card} from 'react-bootstrap';
 
 function Pokemon({id,avatar,name}){
