@@ -1,13 +1,8 @@
 import React, { useState, useEffect } from 'react';
+import Pokemon from './Pokemon';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Pokemon({avatar,name}){
-    return (
-        <figure>
-        <img src={avatar} alt={name} height="200" width="200"/>
-        <figcaption>{name}</figcaption>
-        </figure>
-    )
-}
+
 
 export default function AjaxHooks(){
 
@@ -46,4 +41,3 @@ return (
         </>
     );
 }
-
