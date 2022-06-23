@@ -3,15 +3,11 @@ import Button from 'react-bootstrap/Button';
 import './App.css';
 import AjaxHooks from './Components/AjaxHooks';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Main from './Components/Main';
 
 function App() {
   return (
-    <div className="App-header-2">
-      <h1>
-          Reaper's Pokedex.
-      </h1>
-      <AjaxHooks/>   
-    </div>
+      <Main />
   );
 }
 

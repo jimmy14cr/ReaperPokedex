@@ -1,4 +1,4 @@
-import {Card} from 'react-bootstrap';
+{/*import {Card} from 'react-bootstrap';
 
 function Pokemon({id,avatar,name}){
     return (
@@ -14,13 +14,14 @@ function Pokemon({id,avatar,name}){
                     </Card.Text>
                 </Card.Body>
             </Card>
-        {/*<figure>
+        <figure>
         <img src={avatar} alt={name} height="100" width="100"/>
         <figcaption>{name}</figcaption>
         </figure>        
-        <CardComponent/>*/}
+        <CardComponent/>
         </>
     )
 }
 
 export default Pokemon;
+*/}
